@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            color:black;
+            font-size: large;
+            font-weight: bolder;
+            background-image: url('https://img.freepik.com/premium-photo/male-hand-holding-plane-airplane-icon-blue-background-banner-nline-ticket-purchase-travel-icons-about-travel-planning-transportation-hotel-flight-passport-flight-ticket-booking-concept_150455-6482.jpg');
+            background-repeat:no-repeat;
+            background-size: cover;      
+        }
+    </style>
+    <center>
+        <form>
+            <h3><B>Book your ticket here..</B></h3>
+            <label for="fname">Name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <input type="radio" id="Male" name="Gender" value="1">
+            <label for="Male">Male</label>
+            <input type="radio" id="Female" name="Gender" value="2">
+            <label for="Female">FEMALE</label><br>
+            <label for="ID">National ID </label>
+            <input type="text"><BR>
+            <label for="Passport">Passport details</label>
+            <input type="Text"><br>
+            <label for="date">DATE:</label><br>
+            <input type="date" id="date" name="date"><br>
+            <input type="radio" id="type" name="type" value="1">
+            <label for="Domestic">Domestic</label><br>
+            <input type="radio" id="type" name="type" value="2">
+            <label for="International">International</label><br>
+            <label for="From">From:</label>
+            <input type="text" id="From" name="from">
+            <label for="TO">TO:</label>
+            <input type="text" id="TO" name="TO"><br>
+            <label for="airlines">Airline</label>
+            <select name="airlines" id="airlines">
+                <option value="airarabia">Air Arabia</option>
+                <option value="Airasia">Air Asia</option>
+                <option value="airindia">Air India</option>
+                <option value="emirates">Emirates</option>
+                <option value="Vistara">Vistara</option>
+            </select><br>
+            <input type="checkbox" id="confrim" name="confrim"><br>
+            <lable for="confrim">Flexible With Date</lable><br>
+        </form>
+    </center>
+</body>
+<p id="demo"></p>
+</html>
